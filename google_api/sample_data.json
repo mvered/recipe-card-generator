@@ -1,0 +1,174 @@
+{
+  "spreadsheetId": "14d17GFFmJWBle__sCoo7CGIoEJf7OXdgBcynSv7bBVE",
+  "valueRanges": [
+    {
+      "range": "Summary!A1:B6",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "Servings",
+          "2"
+        ],
+        [
+          "Time",
+          "30 minutes"
+        ],
+        [
+          "Source",
+          "HelloFresh"
+        ],
+        [
+          "Notes",
+          "Start by thawing frozen peas. Two cloves of garlic are used in total, one for rice and one for veggies."
+        ],
+        [
+          "To Serve",
+          "To serve, top rice with veggies and chimichurri."
+        ],
+        [
+          "Photo",
+          "https://photos.google.com/photo/AF1QipNA11Z3ygKCPehvtSKVGRBnA6VsRIhR9-8DKUbe"
+        ]
+      ]
+    },
+    {
+      "range": "'Golden Rice'!A2:B100",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "1 clove",
+          "garlic"
+        ],
+        [
+          "1/2 tsp",
+          "tumeric"
+        ],
+        [
+          "3/4 cup",
+          "jasmine rice"
+        ],
+        [
+          "1 tsp",
+          "stock concentrate"
+        ],
+        [
+          "1 oz",
+          "golden raisins"
+        ],
+        [
+          "",
+          "olive oil"
+        ],
+        [
+          "",
+          "salt"
+        ]
+      ]
+    },
+    {
+      "range": "'Golden Rice'!C2:C100",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "Peel and mince garlic. Heat a drizzle of oil in a small pot over medium-high heat. Add tumeric and minced garlic. Cook, stirring constantly, until fragrant, 30-60 seconds. "
+        ],
+        [
+          "Add rice, stock concentrate, 1\u00bc cups water, and a pinch of salt. Bring to a boil, then cover and reduce to a low simmer. Cook until tender, 15-18 minutes."
+        ],
+        [
+          "Fluff rice with fork and stir in golden raisins."
+        ]
+      ]
+    },
+    {
+      "range": "Veggies!A2:B100",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "4 oz",
+          "frozen peas"
+        ],
+        [
+          "1 clove",
+          "garlic"
+        ],
+        [
+          "6 oz",
+          "asparagus"
+        ],
+        [
+          "1",
+          "red onion"
+        ],
+        [
+          "",
+          "olive oil"
+        ],
+        [
+          "",
+          "salt & pepper"
+        ]
+      ]
+    },
+    {
+      "range": "Veggies!C2:C100",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "Dump peas in a big bowl of cold water. Let thaw for 20 minutes, then drain well. "
+        ],
+        [
+          "Peel and mince garlic. Trim and discard woody bottom ends from asparagus; cut crosswise into 1-inch pieces. Halve, peel, and thinly slice half the onion."
+        ],
+        [
+          "Heat a drizzle of oil in large pan over medium-high heat. Add asparagus and sliced onion. Season with salt and pepper. Cook, stirring, about 4 minutes. "
+        ],
+        [
+          "Stir in peas and minced garlic and cook about 2 more minutes, until asparagus is lightly browned and tender and peas are warmed through."
+        ]
+      ]
+    },
+    {
+      "range": "Chimichurri!A2:B100",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "1/4 oz",
+          "parsley"
+        ],
+        [
+          "1/2 oz",
+          "pistachios"
+        ],
+        [
+          "1 tsp",
+          "garlic powder"
+        ],
+        [
+          "2 1/2 tbsp",
+          "olive oil"
+        ],
+        [
+          "1 tsp",
+          "red wine vinegar"
+        ],
+        [
+          "",
+          "salt & pepper"
+        ]
+      ]
+    },
+    {
+      "range": "Chimichurri!C2:C100",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "Mince parsley. Roughly chop pistachios."
+        ],
+        [
+          "In a small bowl, combine parsley, pistachios, garlic powder, olive oil, red wine vinegar, salt, and pepper."
+        ]
+      ]
+    }
+  ]
+}

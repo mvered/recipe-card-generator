@@ -158,7 +158,7 @@ class Recipe():
         """retrieves photo from specified url"""
         photo_name = self._data['valueRanges'][0]['values'][5][1]
         filetype = photo_name.split('.')[-1]
-        filename = 'resources/raw_images' + str(self.title).replace(" ", "_") + '.' + str(filetype)
+        filename = 'resources/raw_images/' + str(self.title).replace(" ", "_") + '.' + str(filetype)
             
         # checks if url is a regular url or the name of an image stored in google photos
         if photo_name[0:4] == 'http':
