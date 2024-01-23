@@ -65,25 +65,33 @@ def adjust_size(im, desired_ratio, desired_width = None, desired_height = None):
     """
     if desired_width is None and desired_height is None:
         raise TypeError('need to specify either a desired width or a desired height')
-    elif desired_width is not None and desired_heigth is None:
+    elif desired_width is not None and desired_height is None:
         desired_height = calculate_height(desired_width, desired_ratio)
     elif desired_height is not None and desired_width is None:
         desired_width = calculate_width(desired_height, desired_ratio)
-    return im.resize((desired_width, desired_height))
+    return im.resize((desired_width, desired_height)), desired_width, desired_height
 
-def main(source_filename, destination_filename):
+def main(source_filename, destination_filename, desired_ratio, desired_width = None, desired_height = None):
     """full image conversion process"""
     im = Image.open(source_filename)
-    im = adjust_ratio(im = im, desired_ratio = (5, 4))
+    im = adjust_ratio(im = im, desired_ratio = desired_ratio)
     im.save(destination_filename)
-    im = adjust_size(im = im, desired_ratio = (5, 4), desired_height = 200)
+
+    if desired_height is not None:
+        im, desired_width, desired_height = adjust_size(im = im, desired_ratio = desired_ratio, desired_height = desired_height)
+    elif desired_width is not None:
+        im, desired_width, desired_height = adjust_size(im = im, desired_ratio = desired_ratio, desired_width = desired_width)
+    elif desire_height is None and desired_width is None:
+        raise TypeError('need to specify either a desired width or a desired height')
+
     im.save(destination_filename)
+    return desired_width, desired_height
 
 # test code
 if __name__ == '__main__':
     source_filename = 'resources/raw_images/Asparagus_and_Golden_Rice_Bowls.jpg'
     destination_filename = 'resources/processed_images/Asparagus_and_Golden_Rice_Bowls.jpg'
-    main(source_filename, destination_filename)
+    main(source_filename, destination_filename, (5, 4), desired_width = 250)
 
 
 
