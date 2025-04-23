@@ -1,3 +1,6 @@
+# Note
+This project has not been completed.
+
 # Recipe Card Generator
 Generates printable PDF files with recipe photos, ingredients, and instructions. Recipe instructions and ingredients come from Google Sheets template. Photos can come from the user's Google Photos library or from public image sources.
 
